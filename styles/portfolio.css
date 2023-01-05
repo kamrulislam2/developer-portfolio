@@ -78,7 +78,6 @@ main{
 }
 /* About section styles */
 .about{
-    margin-top: 130px;
     background-color: #FFF8F3;
     padding: 130px 157px;
 }
@@ -115,3 +114,37 @@ main{
     color: #474747;
     margin: 10px;
 }
+section{
+    margin-top: 130px;
+}
+/* What I Do Styles */
+.what-i-do > p{
+    padding: 0px 157px;
+}
+
+/* Skill Styles */
+.skill-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px 30px  0px 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+/* Resume Styles */
