@@ -5,6 +5,12 @@
 .text-primary{
     color: #FD6E0A;
 }
+header{
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png') , url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
 /* Header & Navigation Styles */
 nav{
     display: flex;
@@ -37,7 +43,7 @@ button{
 /* Banner Styles */
 .banner{
     display: flex ;
-    margin: 0px 226px;
+    margin: 0px 38px 0px 226px;
     align-items: center;
 }
 div div h3{
@@ -64,4 +70,48 @@ div div p{
 .download{
     width: 200px;
     height: 64px;
+}
+/* Mains section */
+main{
+    max-width: 1140px;
+    margin: 0px   auto;
+}
+/* About section styles */
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 157px;
+}
+.section-title{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #181818 ;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #757575;
+}
+/* About Mary info */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    margin: 0px;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    margin: 10px;
 }
